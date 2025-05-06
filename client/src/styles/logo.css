@@ -1,0 +1,7 @@
+.logo-icon {
+  transition: transform 0.3s ease;
+}
+
+a:hover .logo-icon {
+  transform: rotate(15deg);
+}
