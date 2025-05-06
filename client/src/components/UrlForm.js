@@ -198,7 +198,7 @@ const UrlForm = () => {
                 rules={{
                   required: 'URL is required',
                   pattern: {
-                    value: /^(https?:\/\/)?([\da-z.-]+)\.([a-z.]{2,6})([/\w .-]*)*\/?$/,
+                    value: /^(https?:\/\/)?([\da-z.-]+)\.([a-z.]{2,6})([/\w .-]*)*\/?(\?[a-zA-Z0-9=&_\-\.%\+]*)?$/,
                     message: 'Please enter a valid URL',
                   },
                 }}
